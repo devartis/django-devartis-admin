@@ -1,0 +1,22 @@
+#header {
+	background:#1d1d1f;
+}
+#branding h1 {
+	color: #65bff1;
+}
+#footer {
+	background:#1d1d1f;
+	text-align: center;
+}
+#footer a:link, a:visited {
+	color: #888;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #d6d6d6;
+	text-decoration: none;
+}
+.module h2, .module caption, .inline-group h2 {
+	background: #65bff1;
+	color: #d6d6d6;
+}
