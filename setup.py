@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from setuptools import setup, find_packages
-from admin_tools import VERSION
+from devartis_admin import VERSION
 
 github_url = 'https://github.com/devartis/django-devartis-admin'
 long_desc = '''
@@ -18,7 +18,7 @@ setup(
     author='Fernando Aramendi',
     author_email='fernando@devartis.com',
     url=github_url,
-    download_url='%/archive/django-devartis-admin-%s.tar.gz' % (github_url, VERSION),
+    download_url='%/archive/%s.tar.gz' % (github_url, VERSION),
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
