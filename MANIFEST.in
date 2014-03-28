@@ -1,0 +1,3 @@
+include CHANGELOG MANIFEST.in README
+recursive-include devartis_admin/templates *
+recursive-include devartis_admin/static *
