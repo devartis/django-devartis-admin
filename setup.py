@@ -18,7 +18,7 @@ setup(
     author='Fernando Aramendi',
     author_email='fernando@devartis.com',
     url=github_url,
-    download_url='%/archive/%s.tar.gz' % (github_url, VERSION),
+    download_url='%s/archive/%s.tar.gz' % (github_url, VERSION),
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
