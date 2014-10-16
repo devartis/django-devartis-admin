@@ -10,7 +10,7 @@
 {% block title %}{{ title }} | {% get_current_site_name %}{% endblock %}
 
 {% block branding %}
-<h1 id="site-name">{% get_current_site_name %}</h1>
+<h1 id="site-name"><a href="http://{% get_current_site_domain %}/" title="{% get_current_site_name %}">{% get_current_site_name %}</a></h1>
 {% endblock %}
 
 {% block footer %}
