@@ -1,0 +1,5 @@
+pip install https://github.com/devartis/django-devartis-admin/archive/0.1.6.zip
+Add devartis-admin before contrib.admin
+INSTALLED_APPS = (
+    'devartis_admin',
+    'django.contrib.admin',
