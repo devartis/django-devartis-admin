@@ -1,5 +1,16 @@
-pip install https://github.com/devartis/django-devartis-admin/archive/0.1.6.zip
-Add devartis-admin before contrib.admin
++ pip install https://github.com/devartis/django-devartis-admin/archive/0.1.6.zip
+
++ Add devartis-admin before contrib.admin
 INSTALLED_APPS = (
     'devartis_admin',
     'django.contrib.admin',
+    
++ Make sure you have sites app installed and you added a SITE_ID on your settings
+INSTALLED_APPS = (
+    ...
+    'django.contrib.sites',
+    ...
+SITE_ID = 1
+
+    
+
